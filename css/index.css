@@ -1,0 +1,76 @@
+        *{
+			margin: 0;
+			padding: 0;
+        }
+         body{
+	    	background:url('../image/20161031170829_73857.jpg') 100% no-repeat;
+	    }
+        #main{
+        	width: 50%;
+        	margin:100px auto;
+        	background:rgba(0,0,0,0.9);
+        }
+		li{
+			display: inline-block;
+		}
+		#list li{
+            display:inline-block;
+            border-radius:10px;
+		}
+		#list li a{
+			background-color:#87CEEB;
+			color:#fff;
+			font-size:15px;
+	   }
+	   #exprience{
+	   	    padding: 50px 0;
+	   }
+	   .icon{
+            display: block;
+	   }
+		.message{
+			font-size:14px;
+			font-family: "微软雅黑";
+		}
+		#skill{
+			color:#fff;
+			padding: 50px 0;
+		}
+		#work{
+			color: #fff;
+			position: relative;
+			padding: 50px 0;
+		}
+		.item::before{
+		    content: '';
+		    position: absolute;
+		    top: 0;
+		    left:-25px;
+		    height: 100%;
+		    width:2px;
+		    background:#ccc;	
+		}
+		.circle-out{
+			width:20px;
+			height:20px;
+			display: flex;
+			justify-content:center;
+			align-items:center;
+			border-radius:50%;
+			background: #87CEEB;
+			position: absolute;
+			top:0;
+			left:-34px;
+		}
+		.exprience-list{
+			color:#fff; 
+			display: 
+			flex;
+			justify-content:center;
+			align-items:center;
+		}
+		.icon-container{
+			text-align:center;
+			font-size:30px;
+			color: #87CEEB;
+		}}
